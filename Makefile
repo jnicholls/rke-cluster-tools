@@ -3,7 +3,7 @@ THIS_DIR := $(shell dirname $(THIS))
 
 DOCKER     ?= docker
 IMAGE_REPO ?= jarrednicholls/rke-cluster-tools
-IMAGE_TAG  ?= v1
+IMAGE_TAG  ?= v2
 
 .PHONY: all build
 
